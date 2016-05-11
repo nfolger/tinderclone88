@@ -11,6 +11,10 @@ import UIKit
 import Parse
 
 class ViewController: UIViewController {
+    
+    override func viewWillAppear(animated: Bool) {
+        print("yo")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
